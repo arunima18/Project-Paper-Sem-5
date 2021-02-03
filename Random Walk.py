@@ -163,3 +163,59 @@ K1,K2,K3=RW_100(250)
 rms5=RMS_(K3,250)
 print('The RMS distance for N=250 is: ')
 print(rms5)
+
+
+############################################################################
+'''
+For N=3000-
+The radial distance covered is: 
+51.6130154247195
+The average distance in the x direction is:
+0.014748331727729339
+The average distance in th y direction is:
+-0.009456936436215781
+The RMS distance for N=3000 is: 
+54.38402832792
+
+For N=2000-
+The radial distance covered is: 
+17.77184276437195
+The average distance in the x direction is:
+-0.0004276073863319899
+The average distance in th y direction is:
+0.008868176084805371
+The RMS distance for N=2000 is: 
+44.3212581456946
+
+For N=1000-
+The radial distance covered is: 
+20.632017069314685
+The average distance in the x direction is:
+-0.000573832892278123
+The average distance in th y direction is:
+-0.021527434052377892
+The RMS distance for N=1000 is: 
+34.241974566280454
+
+For N=500-
+The radial distance covered is: 
+8.720283764188187
+The average distance in the x direction is:
+0.005098987951047935
+The average distance in th y direction is:
+0.014589878074940301
+The RMS distance for N=500 is: 
+23.61523067773948
+
+For N=250-
+The radial distance covered is: 
+32.06742212380065
+The average distance in the x direction is:
+0.10185755429856153
+The average distance in th y direction is:
+-0.0841724299393319
+The RMS distance for N=250 is: 
+15.714933170402183
+
+
+'''
