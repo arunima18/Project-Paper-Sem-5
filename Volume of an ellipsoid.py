@@ -52,6 +52,8 @@ E, N, V = Error(1, 1.5, 2, 100)
 
 #For 3D plot of the Ellipsoid 
 V,A,B,C=Vol_Ellipsoid(1,1.5,2,40000)
+print("Volume of an ellipsoid with a=1 unit, b=1.5 unit, c=2 unit and N=40000 random points is: ")
+print(V)
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
@@ -61,6 +63,16 @@ ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 plt.title("3 dimensional plot of the Ellipsoid obtained for N=40000 random points")
 plt.show()
+
+
+
+#######################################################################################################################
+'''
+C:\pythonProject7\Scripts\python.exe "C:/Users/Arunima Das/PycharmProjects/pythonProject7/main.py"
+Volume of an ellipsoid with a=1 unit, b=1.5 unit, c=2 unit and N=40000 random points is: 
+12.591
+
+Process finished with exit code 0 '''
 
 
 
